@@ -1,0 +1,21 @@
+{
+  "name": "fluver",
+  "version": "1.0.3",
+  "description": "Simple web scrapping job",
+  "contributors": [
+    "Italo José <italo.oliveira@live.com>"
+  ],
+  "scripts": {
+    "start": "node index",
+    "test": "mocha test"
+  },
+  "author": "Italo José <italo.i@live.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "inquirer": "^5.2.0",
+    "mongoose": "^5.0.13",
+    "sugar-env": "^1.3.2",
+    "x-ray": "^2.3.2"
+  }
+}
